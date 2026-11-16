@@ -1,0 +1,6 @@
+version: 2.4.{build}
+
+configuration: Release
+
+before_build:
+  - cmd: dotnet restore
